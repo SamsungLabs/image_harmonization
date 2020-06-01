@@ -102,13 +102,21 @@ We provide metrics and pre-trained weights for several models trained on images 
 Metric values may differ slightly from the ones in the paper since all the models were retrained from scratch with the new codebase.
 
 Pre-trained models:
-TODO
-<table class="tg">
-  <tr>
-    <th class="tg-0pky">Model</th>
-    <th class="tg-0pky">Link</th>
-  </tr>
-</table>
+| Model                      | Download Link                            |
+|:--------------------------:|:----------------------------------------:|
+| iDIH256                    | [idih256.pth][idih256]                   |
+| iSSAM256                   | [issam256.pth][issam256]                 |
+| DeepLab-ResNet34 + iDIH256 | [deeplab_idih256.pth][deeplab_idih256]   |
+| HRNet18s + iDIH256         | [hrnet18s_idih256.pth][hrnet18s_idih256] |
+| HRNet18 + iDIH256          | [hrnet18_idih256.pth][hrnet18_idih256]   |
+| HRNet32 + iDIH256          | [hrnet32_idih256.pth][hrnet32_idih256]   |
+
+[idih256]: https://github.com/saic-vul/image_harmonization/releases/download/v1.0/idih256.pth
+[issam256]: https://github.com/saic-vul/image_harmonization/releases/download/v1.0/issam256.pth
+[deeplab_idih256]: https://github.com/saic-vul/image_harmonization/releases/download/v1.0/deeplab_idih256.pth
+[hrnet18s_idih256]: https://github.com/saic-vul/image_harmonization/releases/download/v1.0/hrnet18s_idih256.pth
+[hrnet18_idih256]: https://github.com/saic-vul/image_harmonization/releases/download/v1.0/hrnet18_idih256.pth
+[hrnet32_idih256]: https://github.com/saic-vul/image_harmonization/releases/download/v1.0/hrnet32_idih256.pth
 
 Evaluation metrics:
 <table class="tg">
