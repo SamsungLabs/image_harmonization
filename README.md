@@ -6,8 +6,9 @@
 
 This repository contains the official PyTorch implementation of the following paper:
 > **Foreground-aware Semantic Representations for Image Harmonization**<br>
-> Konstantin Sofiiuk, Polina Popenova, Anton Konushin<br>
+> [Konstantin Sofiiuk](https://github.com/ksofiyuk), [Polina Popenova](https://github.com/polyhex-sqr), [Anton Konushin](https://scholar.google.com/citations?user=ZT_k-wMAAAAJ)<br>
 > Samsung AI Center Moscow<br>
+> https://arxiv.org/abs/2006.00809
 >
 > **Abstract:**
 > Image harmonization is an important step in photo editing to achieve visual consistency in composite images by adjusting the appearances of foreground to make it compatible with background.
@@ -237,7 +238,7 @@ If you find this work is useful for your research, please cite our paper:
 @article{sofiiuk2020harmonization,
   title={Foreground-aware Semantic Representations for Image Harmonization},
   author={Konstantin Sofiiuk, Polina Popenova, Anton Konushin},
-  journal={arXiv preprint arXiv:20??.?????},
+  journal={arXiv preprint arXiv:2006.00809},
   year={2020}
 }
 ```
