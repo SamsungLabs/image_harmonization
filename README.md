@@ -110,6 +110,7 @@ Pre-trained models:
 | DeepLab-ResNet34 + iDIH256 | [deeplab_idih256.pth][deeplab_idih256]   |
 | HRNet18s + iDIH256         | [hrnet18s_idih256.pth][hrnet18s_idih256] |
 | HRNet18 + iDIH256          | [hrnet18_idih256.pth][hrnet18_idih256]   |
+| HRNet18 pyramid + iDIH256  | [hrnet18p_idih256.pth][hrnet18p_idih256] |
 | HRNet32 + iDIH256          | [hrnet32_idih256.pth][hrnet32_idih256]   |
 
 [idih256]: https://github.com/saic-vul/image_harmonization/releases/download/v1.0/idih256.pth
@@ -117,6 +118,7 @@ Pre-trained models:
 [deeplab_idih256]: https://github.com/saic-vul/image_harmonization/releases/download/v1.0/deeplab_idih256.pth
 [hrnet18s_idih256]: https://github.com/saic-vul/image_harmonization/releases/download/v1.0/hrnet18s_idih256.pth
 [hrnet18_idih256]: https://github.com/saic-vul/image_harmonization/releases/download/v1.0/hrnet18_idih256.pth
+[hrnet18p_idih256]: https://github.com/saic-vul/image_harmonization/releases/download/v1.0/hrnet18_pyramid_idih256.pth
 [hrnet32_idih256]: https://github.com/saic-vul/image_harmonization/releases/download/v1.0/hrnet32_idih256.pth
 
 Evaluation metrics:
@@ -212,6 +214,19 @@ Evaluation metrics:
     <td class="tg-0pky">37.74</td>
     <td class="tg-0pky">22.99</td>
     <td class="tg-0pky">38.16</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">HRNet18 pyramid</td>
+    <td class="tg-0pky">14.10</td>
+    <td class="tg-0pky">39.56</td>
+    <td class="tg-0pky">24.47</td>
+    <td class="tg-0pky">37.04</td>
+    <td class="tg-0pky">62.13</td>
+    <td class="tg-0pky">33.90</td>
+    <td class="tg-0pky">47.74</td>
+    <td class="tg-0pky">37.46</td>
+    <td class="tg-0pky">23.10</td>
+    <td class="tg-0pky">38.15</td>
   </tr>
   <tr>
     <td class="tg-0pky">HRNet32</td>
