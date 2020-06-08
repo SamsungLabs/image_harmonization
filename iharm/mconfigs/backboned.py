@@ -15,6 +15,14 @@ MCONFIGS = {
         'model': HRNetIHModel,
         'params': {'base_config': BMCONFIGS['improved_dih256'], 'small': False}
     },
+    'hrnet18_v2p_idih256': {
+        'model': HRNetIHModel,
+        'params': {'base_config': BMCONFIGS['improved_dih256'], 'small': False, 'pyramid_channels': 256}
+    },
+    'hrnet32_idih256': {
+        'model': HRNetIHModel,
+        'params': {'base_config': BMCONFIGS['improved_dih256'], 'width': 32, 'small': False}
+    },
     'deeplab_r34_idih256': {
         'model': DeepLabIHModel,
         'params': {'base_config': BMCONFIGS['improved_dih256']}
