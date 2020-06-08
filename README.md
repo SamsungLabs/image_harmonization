@@ -102,23 +102,23 @@ For interactive models testing with samples visualization see [eval_and_vis_harm
 We provide metrics and pre-trained weights for several models trained on images of size 256x256 augmented with horizontal flip and random resized crop.
 Metric values may differ slightly from the ones in the paper since all the models were retrained from scratch with the new codebase.
 
-Pre-trained models:
-| Model                      | Download Link                            |
-|:--------------------------:|:----------------------------------------:|
-| iDIH256                    | [idih256.pth][idih256]                   |
-| iSSAM256                   | [issam256.pth][issam256]                 |
-| DeepLab-ResNet34 + iDIH256 | [deeplab_idih256.pth][deeplab_idih256]   |
-| HRNet18s + iDIH256         | [hrnet18s_idih256.pth][hrnet18s_idih256] |
-| HRNet18 + iDIH256          | [hrnet18_idih256.pth][hrnet18_idih256]   |
-| HRNet18 pyramid + iDIH256  | [hrnet18p_idih256.pth][hrnet18p_idih256] |
-| HRNet32 + iDIH256          | [hrnet32_idih256.pth][hrnet32_idih256]   |
+Pre-trained models with corresponding names of model configs (see [Evaluation](#evaluation)):
+| Model                      | Download Link                                  | Name in [mconfigs](./iharm/mconfigs) |
+|:--------------------------:|:----------------------------------------------:|:-------------------------------------:|
+| iDIH256                    | [idih256.pth][idih256]                         |improved_dih256                        |
+| iSSAM256                   | [issam256.pth][issam256]                       |improved_ssam256                       |
+| DeepLab-ResNet34 + iDIH256 | [deeplab_idih256.pth][deeplab_idih256]         |deeplab_r34_idih256                    |
+| HRNet18s + iDIH256         | [hrnet18s_idih256.pth][hrnet18s_idih256]       |hrnet18s_idih256                       |
+| HRNet18 + iDIH256          | [hrnet18_idih256.pth][hrnet18_idih256]         |hrnet18_idih256                        |
+| HRNet18 pyramid + iDIH256  | [hrnet18_v2p_idih256.pth][hrnet18_v2p_idih256] |hrnet18_v2p_idih256                    |
+| HRNet32 + iDIH256          | [hrnet32_idih256.pth][hrnet32_idih256]         |hrnet32_idih256                        |
 
 [idih256]: https://github.com/saic-vul/image_harmonization/releases/download/v1.0/idih256.pth
 [issam256]: https://github.com/saic-vul/image_harmonization/releases/download/v1.0/issam256.pth
 [deeplab_idih256]: https://github.com/saic-vul/image_harmonization/releases/download/v1.0/deeplab_idih256.pth
 [hrnet18s_idih256]: https://github.com/saic-vul/image_harmonization/releases/download/v1.0/hrnet18s_idih256.pth
 [hrnet18_idih256]: https://github.com/saic-vul/image_harmonization/releases/download/v1.0/hrnet18_idih256.pth
-[hrnet18p_idih256]: https://github.com/saic-vul/image_harmonization/releases/download/v1.0/hrnet18_pyramid_idih256.pth
+[hrnet18_v2p_idih256]: https://github.com/saic-vul/image_harmonization/releases/download/v1.0/hrnet18_v2p_idih256.pth
 [hrnet32_idih256]: https://github.com/saic-vul/image_harmonization/releases/download/v1.0/hrnet32_idih256.pth
 
 Evaluation metrics:
