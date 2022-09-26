@@ -1,5 +1,5 @@
 from albumentations import Compose, LongestMaxSize, DualTransform
-import albumentations.augmentations.functional as F
+import albumentations.augmentations.geometric.functional as F
 import cv2
 
 
