@@ -7,7 +7,7 @@
 This repository contains the official PyTorch implementation of the following paper:
 > **Foreground-aware Semantic Representations for Image Harmonization**<br>
 > [Konstantin Sofiiuk](https://github.com/ksofiyuk), [Polina Popenova](https://github.com/polyhex-sqr), [Anton Konushin](https://scholar.google.com/citations?user=ZT_k-wMAAAAJ)<br>
-> Samsung AI Center Moscow<br>
+> Samsung Research<br>
 > https://arxiv.org/abs/2006.00809
 >
 > **Abstract:**
